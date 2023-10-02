@@ -1,3 +1,54 @@
 #+title: Physical Computing1 Org File
 #+author: Ashley Sagar
 
+[[https://learn.gold.ac.uk/course/view.php?id=27909][Physcom1 VLE]]
+
+[[https://www.doc.gold.ac.uk/Hatchlabs/][Hatchlabs www]]
+
+
+
+
+
+* Week_01
+
+** Module overview
+
+ - idea, prototype, iterate
+
+
+ - Electricity
+    - voltage - preassure
+    - current - amount of energy pushed thru a circuit
+    - resistance - ohms- how much energy has been squeezed out of the circuit
+
+      - Power - Watts:
+	- Voltage x current
+	- Power(P) = Current(I) * Voltage(V)
+
+
+  - Breadboarding
+    1. simple circuit from powered-board(fakeduino)
+    2. Soldered up an LED with a 220ohm resistor attached to tthe positive leg.
+    
+	
+
+
+
+
+* Week_02
+
+* Week_03
+
+* Week_04
+
+* Week_05
+
+* Week_06
+
+* Week_07
+
+* Week_08
+
+* Week_09
+
+* Week_10

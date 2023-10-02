@@ -17,13 +17,14 @@
 
 
  - Electricity
-    - voltage - preassure
-    - current - amount of energy pushed thru a circuit
-    - resistance - ohms- how much energy has been squeezed out of the circuit
+   - voltage - preassure
+   - current - amount of energy pushed thru a circuit
+   - resistance - ohms- how much energy has been squeezed out of the circuit
 
-      - Power - Watts:
-	- Voltage x current
-	- Power(P) = Current(I) * Voltage(V)
+     - Power - Watts:
+       - Voltage x current
+       - Power(P) = Current(I) * Voltage(V)
+       - 
 
 
   - Breadboarding
@@ -32,6 +33,9 @@
     
 	
 
+
+
+  some text here
 
 
 
