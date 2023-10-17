@@ -6,6 +6,8 @@
 [[https://www.doc.gold.ac.uk/Hatchlabs/][Hatchlabs www]]
 
 
+[[https://itp.nyu.edu/physcomp/lessons/][NYU PHYSCOM]]
+[[https://itp.nyu.edu/physcomp/videos/][NYU videos]]
 
 
 
@@ -40,6 +42,45 @@
 
 
 * Week_02
+
+** multimeter
+- testing continuity
+- ohms
+- v~ = AC power
+- v w 2 lines = DC current
+  - checked with a 9V battery
+- Used desktop psu to check current
+- code
+  - variables
+  - functions
+  - conditionals
+- Blinking light sketch
+  -changed blonking light sketch
+- added a 2nd led and changed the timings
+
+
+- Debugging
+
+
+- Schematics
+- [[https://www.circuit-diagram.org/editor/][schematic maker]]
+- [[https://easyeda.com/][EASY EDA]]
+- [[https://robhallart.github.io/PhysCompIdeaDice/][idea generator]]
+- [[https://itp.nyu.edu/physcomp/videos/videos-schematic-diagrams/][nyu pyscom schematic vids]]
+
+  
+* HOMEWORK
+ • Please make the most interesting button you can.
+• You can ONLY USE BUTTONS as your input but you can USE LEDs or the Serial Monitor as your output.
+• Think about the meaning of what you make, how it will be used, the colours you choose, the design of your device.
+• Can you make it tell a story? Can you make it surprise the user?
+• Deliverables:
+• Upload this assignment to the VLE and include: A short video of the project (1 minute or less) , your code, a
+schematic of your circuit. (This can be hand drawn or done on a computer)
+• Post just the video of your device to the class forum so we can all see everyone's work.
+• Please think of this brief as an opportunity to try things out, the result does not have to be perfect, feel free to
+try things and fail, to play, to experiment, to get things wrong.
+  
 
 * Week_03
 
