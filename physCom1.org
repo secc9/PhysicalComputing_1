@@ -160,7 +160,27 @@ upload everything to the VLE and forum.
 Please think of this brief as an opportunity to try things out, the result does not have to be perfect, feel free to try
 things and fail, to play, to experiment, to get things wrong.
 
-    
+
+
+*** What do I want to make?
+ - A box that makes noise on the inside but when you open the box everything stops.
+
+ - How am i going to ame this?
+   - A box that has servo meters in it
+   - The servos run in the dark with being set from a LDR.
+   - when the LDR senses light then the servos stop
+   - something is attached to the servos
+
+  _______________
+ |                 |
+ | []------------  |
+ |                 |
+ |------------[]   |
+ | _______[]______ |
+
+
+
+ 
 * Week_04
 
 * Week_05
