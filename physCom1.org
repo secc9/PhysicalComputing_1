@@ -183,6 +183,161 @@ things and fail, to play, to experiment, to get things wrong.
  
 * Week_04
 
+- projects & documentation 
+
+- Ultrasonic distance sensor
+  - cheap
+
+  - millis()z
+
+    - use millis() instead of delay
+
+  - blinkwithoutdelay arduino sketch is the non delay code to look at
+
+
+  -calibration --- MillisModuloDemo
+
+   - smoothing
+     - Arrays
+
+
+ - DC motors
+   - spin forever
+   - little torque
+     
+ - GET A TB6600 INSTEAD OF A CNC SHIELD - ITS A MICROSTEPPER DRIVER
+ - 
+ - [[https://lastminuteengineers.com/?utm_content=cmp-true][Last Minute Engineers]]
+ - 
+ - 
+ - Solenoids
+ - one of two positions
+ - on or off
+ - used with either a relay or a MOSFET
+ -
+
+
+ 
+- define a minimum vable project
+- big idea 
+  - then scale back
+
+
+* Project Proposal
+
+- Deadline Oct 31st
+
+
+- submit a proposal
+- You should submit a proposal in PDF format for the project you'd like to make between now and the end of term.
+- 
+- Describe the project using words, drawings and diagrams.
+- Tell is what you plan to make for your MVP, and how you will build the project from there.
+- Talk about the user journey, <b> how the user will know what to do with your piece.<b>
+  - Talk about what your piece will convey to the user.
+
+
+- Deadline October 31st.
+- You should try and answer the following questions:
+  - What's your project about? is it a game, installation, instrument, performancd or someting else?
+
+
+-  What is my project about?
+ It's a self created analog feedback loop
+    
+  - What does this project do? What is it for?
+
+    my project is a sound installation
+
+
+  - Who is it for? What so you hope the experience will be for the participant? What do you hope they think/feel?
+
+    it is for people to experience ?
+
+    I hope they feel something?
+    
+  - How do you imagine it set up and where?
+
+    inside a darkish quiet space
+    
+  - How does thos project work? What is the setup?
+
+    the project is a an array of small speakers attached to stepper motors which raise up 
+    
+  - What is the input to your system? What is the output of your system?
+    the input to my system is possibly either a distance sensor or a temperature sensor along with the motor sound being picked up by a piezo mic. The output is  of the  amplified pmotor moving up and down.
+    
+  - What technologies are you using? what hardware? what software?
+
+   technologies are arduino and the stepper library, the distance library and analog amplifiers.
+   
+    
+  - A diagram, picture, sketch photograph of the project.
+
+ - A video mockup or story board of the interaction.
+
+     - Any problems you envisage? What challenges might you face? How might you solve them?
+
+       the main problem would be for the cost of this. more arduinos, stepper motors, amplifiers and speakers.
+       another problem could be making multiple distance sensors work together or even making multiple arduidos run from the one sensor input.
+
+      
+
+        - What methods you might use for testing the project?
+	  already with testing the stepper motor I'm finding that the 28BYJ-48 doesnt have much torque. At least at the speed I'm running it at.
+	  
+	  
+  - What might you need to buy or borrow?
+    stepper motors, arduinos, amplifiers and speakers
+  - What new skill will you need to aquire?
+    making horn enclosures for the speakers.
+    
+  - Specific help: anything specifix you'd like feedback of help with??
+    I'm not so sure atm??
+
+
+- You should submit a proposal in PDF format for the project you;d like to  make
+  between now and the end of term.
+- Describe the Project using words, diagrams and drawings.
+- Tell us what you plan to make for your MVP, and how you will build the project from there.
+- Talk about the user journey, how the user will know what to do with your piece.
+
+
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+
+
+*** BOM
+- things I need to look into?
+  - Stepper Motors
+    -[[https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/][StepperMotors]]
+- CD4049
+- LM386
+  - speakers
+  
+    
+problems with torque with usint the acellstepper library.
+the stepper library was fine with this.
+
+maybe some gearing?
+
+keep looking into the accelstepper manual.
+
+
+- [[https://hackaday.io/project/183279-accelstepper-the-missing-manual][accelstepper manual???]]
+
+
+*** references/infuences/theory/thoughts
+
+[[https://zimoun.net/audio/][Zimoun]]
+
+
+- maybe the installation is static until  aperson comes into the room, triggering the machine into action? as if replicating the workers idleness when not under the scrutiny of the managers watch. even machines want to rest. They also understand the futility of manual work [[https://www.youtube.com/watch?v=6Kp5qrCExps][robot suicide]] 
+
+- carry on looking at the work book
+
+- 
+
+
 * Week_05
 
 * Week_06
