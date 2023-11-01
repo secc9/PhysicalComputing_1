@@ -116,7 +116,7 @@ try things and fail, to play, to experiment, to get things wrong.
    - prone to inteference
 
 
- - PWM -pulse width modulation
+o - PWM -pulse width modulation
    - emulatiung an analog signal
    - use it to dim an led
    -
@@ -342,6 +342,16 @@ keep looking into the accelstepper manual.
 * Week_05
 
 * Week_06
+
+
+** Serial Comunication
+
+- sending messages both ways
+- Arduino
+- nodeJS
+- p5.js
+
+
 
 * Week_07
 

@@ -24,15 +24,12 @@
 - Deadline October 31st.
 - You should try and answer the following questions:
   
- 
 
-        My project is to be a sound installation.
+- What's your project about? is it a game, installation, instrument, performancd or someting else?
+My project is to be a sound installation.
     
 -  What is my project about?
- 
-
- As we slowly, but surley move into the world of automation, we see machines doing the work of humans. We see that current AI
- technology is being trained by humans on human experince.
+ As we slowly, but surley move into the world of automation, we see machines doing the work of humans. We see that current AI technology is being trained by humans on human experince.
  A long time ago a friend said to me "If you are self employed you work as fast as you can. If you are paid by the hour, you work as slow as you can."
  From my extensive work experince on the factory/shop floor as a 'wage slave' that it is best to work as slow as possible as the work never ends.
  So why work faster?
@@ -41,33 +38,38 @@
 
  The idea for my project is a group of self automated machines which are designed to look as though they are doing something (much like in the current workforce).
  It's a self created analog feedback loop where when not watched, the machines lay at rest but as soon as a viewer walks into their space they start to work as they are being watched.
+ Once the space is free of viewers the machines once again come to a resting position.
  
     
   - What does this project do? What is it for?
 
-    This project is hopefully pointing out 
+    This project is hopefully pointing out the futility of bullshit labor.
+    No matter who you get to do the repetitive work they/it will seek to work as slow as possible.
+    
+  - Who is it for? What do you hope the experience will be for the participant? What do you hope they think/feel?
 
+    It is hopefully for people to realise that work and the psychological toll it takes on them ............
 
-  - Who is it for? What so you hope the experience will be for the participant? What do you hope they think/feel?
-
-    it is for people to experience ?
-
-    I hope they feel something?
+    I hope they feel something? ..................
     
   - How do you imagine it set up and where?
 
-    inside a darkish quiet space
+    The ideal setup for this installation would be in a disused factory somwhere. Placed in and throuout the space, replicating what it would have been like to work inside a factory space.
+   
     
   - How does thos project work? What is the setup?
 
-    the project is a an array of small speakers attached to stepper motors which raise up 
+    this first iteration of the  project is an installation of small speakers attached to stepper motors which raise up
+    and down depending on if a distance sensor has been broken or not. When the sensor has been broken, indicating that there is a 'manager' present the first machine will come into action. This action will then be passed onto another machine and then another, as if being woken from rest one by one.
+
+    the sound of the motor will be aplified as if to pretend that work is in action.
     
   - What is the input to your system? What is the output of your system?
-    the input to my system is possibly either a distance sensor or a temperature sensor along with the motor sound being picked up by a piezo mic. The output is  of the  amplified pmotor moving up and down.
+    the input to my system is possibly either a distance sensor or a temperature sensor along with the motor sound being picked up by a piezo mic. The output is of the amplified stepper motor moving up and down.
     
   - What technologies are you using? what hardware? what software?
 
-   technologies are arduino and the stepper library, the distance library and analog amplifiers.
+  The technologies used are the Arduino, stepper motors, some variation on the stepper library, ultrasonic sensor,  the HCSR04 library, analog amplifiers, pickups and speakers.
    
     
   - A diagram, picture, sketch photograph of the project.
@@ -76,13 +78,13 @@
 
      - Any problems you envisage? What challenges might you face? How might you solve them?
 
-       the main problem would be for the cost of this. more arduinos, stepper motors, amplifiers and speakers.
-       another problem could be making multiple distance sensors work together or even making multiple arduidos run from the one sensor input.
-
-      
+        A large problem would be for the cost of this. more arduinos, stepper motors, amplifiers and speakers.
+       Another problem could be making multiple distance sensors work together or even making multiple arduidos run from the one sensor input. 
+       
 
         - What methods you might use for testing the project?
-	  	  already with testing the stepper motor I'm finding that the 28BYJ-48 doesnt have much torque. At least at the speed I'm running it at.
+	  	I'm already testing the stepper motor I'm finding that the 28BYJ-48 doesnt have much torque. At least at the speed I'm running it at. Maybe that is the library? I found that the built in stepper library can run the motor with a small weight but when I shifted to the acellstepper library the stepper wouldn't lift any weight.
+		
 
 	  
   - What might you need to buy or borrow?
