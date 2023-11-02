@@ -314,6 +314,10 @@ things and fail, to play, to experiment, to get things wrong.
 - CD4049
 - LM386
   - speakers
+  - pir movment sensor
+    
+
+    
   
     
 problems with torque with usint the acellstepper library.
@@ -344,7 +348,11 @@ keep looking into the accelstepper manual.
 * Week_06
 
 
+#+DOWNLOADED: file:/Users/ashleysagar/Documents/UNI_Work_GS_MFA/modules/PhysicalComputing_1/Week06/Phys Comp 1 23-24 Week 5.pdf @ 2023-11-01 14:23:56
+[[file:Week_06/2023-11-01_14-23-56_Phys Comp 1 23-24 Week 5.pdf]]
+
 ** Serial Comunication
+
 
 - sending messages both ways
 - Arduino
@@ -352,6 +360,10 @@ keep looking into the accelstepper manual.
 - p5.js
 
 
+
+** HomeWork
+- deadline
+  
 
 * Week_07
 

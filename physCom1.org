@@ -5,9 +5,10 @@
 
 [[https://www.doc.gold.ac.uk/Hatchlabs/][Hatchlabs www]]
 
-
 [[https://itp.nyu.edu/physcomp/lessons/][NYU PHYSCOM]]
 [[https://itp.nyu.edu/physcomp/videos/][NYU videos]]
+
+[[https://learn.gold.ac.uk/mod/page/view.php?id=1334516][list of artist/projects]]
 
 
 
@@ -70,7 +71,7 @@
 
   
 ** HOMEWORK
- • Please make the most interesting button you can.
+• Please make the most interesting button you can.
 • You can ONLY USE BUTTONS as your input but you can USE LEDs or the Serial Monitor as your output.
 • Think about the meaning of what you make, how it will be used, the colours you choose, the design of your device.
 • Can you make it tell a story? Can you make it surprise the user?
@@ -85,12 +86,12 @@ try things and fail, to play, to experiment, to get things wrong.
 * Week_03
 
  - recap
-   - schematics
    - code
      - statments
      - functions
      - variables
      - conditionals
+   - schematics
 
 
  - repetition
@@ -115,7 +116,7 @@ try things and fail, to play, to experiment, to get things wrong.
    - prone to inteference
 
 
- - PWM -pulse width modulation
+o - PWM -pulse width modulation
    - emulatiung an analog signal
    - use it to dim an led
    -
@@ -313,6 +314,9 @@ things and fail, to play, to experiment, to get things wrong.
 - CD4049
 - LM386
   - speakers
+  - pir movment sensor
+
+    
   
     
 problems with torque with usint the acellstepper library.
@@ -341,6 +345,20 @@ keep looking into the accelstepper manual.
 * Week_05
 
 * Week_06
+
+
+#+DOWNLOADED: file:/Users/ashleysagar/Documents/UNI_Work_GS_MFA/modules/PhysicalComputing_1/Week06/Phys Comp 1 23-24 Week 5.pdf @ 2023-11-01 14:23:56
+[[file:Week_06/2023-11-01_14-23-56_Phys Comp 1 23-24 Week 5.pdf]]
+
+** Serial Comunication
+
+
+- sending messages both ways
+- Arduino
+- nodeJS
+- p5.js
+
+
 
 * Week_07
 
