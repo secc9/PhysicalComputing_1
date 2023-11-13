@@ -372,3 +372,78 @@ keep looking into the accelstepper manual.
 * Week_09
 
 * Week_10
+
+
+
+
+* Final Project
+
+** Resources
+- [[https://www.youtube.com/watch?v=0qwrnUeSpYQ][stepper motors 1]]
+
+
+
+
+** actual thoughts and ideas a procedure
+
+
+** TODO
+
+- read back thru the feedback
+*** THE FEEDBACK
+
+A really interesting project, I really like the idea of the robots secretly resting while the humans aren't watching. You are thinking along the right lines and considering all of the right things with regards to building the project. I would suggest that this might be slightly more complex as a whole project than it needs to be at this point in the year. I can think of a few engineering considerations such as how sound will be passed to the speaker while it is being winched up and down, do you need a slip ring? I also think that the audio pipeline might be a source of problems if you haven't used amplifier ICs and such before.
+
+I think a way around both of these issues might be to change from electronic amplification to acoustic amplification. That is to say that if you attach a stepper motor to a big hollow box with a hole somewhere in it the sound will reverberate around and it will be quite loud, then the stepper can be moving whatever you want. To accentuate this further you could find the resonant frequency of the motor and the box when it will be the loudest it can be.
+
+I reccomend using NEMA 17 steppers with TB6600 Driver modules, these can be had for about £16 each for a set of motor+driver and you can control a good number of these from one arduino using a library called accelStepper which is brilliant for controlling steppers
+
+ - WHATS A SLIP RING?
+
+   its a device that allows one end of a circuit to be satic whildt the other spins freely
+   - Why would I need one??
+   - I do not yet know why...
+
+
+
+- [-] make stepper motors run
+  - [X] get the small one to run
+  - [ ] Figure out what it is I want it to do
+    - [ ] when it gets to the top of its run it goes back down and visa versa
+    - [ ] 
+- [-] make the nema 17 stepper motor run
+  - [X] make it go
+  - [ ] again, what do I want it to do?
+  - [ ] make it go up and down
+  - [ ] make it start when a sensor has been broken
+  - [ ] 
+
+  
+- [-] work out some way of getting the movment sensor to work
+  - [[https://lastminuteengineers.com/pir-sensor-arduino-tutorial/][HC-SR501]] LME
+  - [ ] HC-SR501 Passive infared sensor
+  - [ ] start on the sensor
+  - [X] got a basic arduino sketch
+  - [X] motion is detected
+  - [ ] 
+- [ ] figure out some kind of reaction system
+- [ ] start to build the preamp and amplifiers
+  - [ ] to ic chips, one into another
+    - [ ] Having much problems with the IC chips. I have no idea why..........
+  - [ ] CD4049 preamp - page 184. Handmade Electronic Musis
+  #+DOWNLOADED: file:/Users/ashleysagar/Documents/UNI_Work_GS_MFA/modules/PhysicalComputing_1/finalProject/datasheets/4049.pdf @ 2023-11-08 11:23:59
+	   [[file:Final_Project/2023-11-08_11-23-59_4049.pdf]]
+  - [ ] LM386 Amplifier - page 246 . Handmade Electronic music
+     #+DOWNLOADED: file:/Users/ashleysagar/Documents/UNI_Work_GS_MFA/modules/PhysicalComputing_1/finalProject/datasheets/NJM386.pdf @ 2023-11-08 11:24:29
+     [[file:Final_Project/2023-11-08_11-24-29_NJM386.pdf]]
+
+
+- I can get the CD4049 to work but the contact mic won't pick up the sound of the motor
+- [ ] I will go with Rob's suggestion of making resonant boxes for them and do the amplification acoustically.
+- [ ] figure out how to pull the speakers
+  - [ ] 
+- [ ] figure out the actual installation
+
+
+
+
